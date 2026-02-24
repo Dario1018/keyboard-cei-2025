@@ -6,12 +6,7 @@
 
 
 
-.inter-<uniquifier> {
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-}
+
 
 /*Esta parte serán los atributos generales de la página*/
 
@@ -243,6 +238,11 @@ header {
     background-color: white;
     border-radius: 0 0 8rem 8rem;
     padding: 0px 0px 0px 0px;
+    min-height: 50vh;
+    overflow: hidden;
+    position: relative;
+    padding: 100px 0px 0px 0px;
+
 }
 
 .hero {
@@ -250,7 +250,6 @@ header {
     justify-content: space-between;
     align-items: stretch;
     min-height: 500px;
-    padding: 4rem 1rem;
     overflow: hidden;
 
 
@@ -262,13 +261,7 @@ header {
     text-align: left;
 }
 
-.hero .image {
-    flex: 1;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-}
+.image {}
 
 
 .hero .text {
@@ -325,24 +318,16 @@ header {
 }
 
 
-
-
-.hero video {
-    width: 250px;
-    max-width: 100%;
-    height: auto;
-    border-radius: 1rem;
-}
-
 .video-wrapper-glow {
     position: absolute;
-    top: 0;
-    display: inline-block;
-    border-radius: 2rem;
-    background: #000;
-    width: fit-content;
-    box-shadow: 0 0 60px 15px rgba(0, 255, 255, 0.35);
-    /* glow celeste suave */
+    bottom: -10px;
+    left: 70%;
+    transform: translateX(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    line-height: 0;
+    z-index: 10;
 }
 
 video {
@@ -350,11 +335,12 @@ video {
 }
 
 .video-wrapper-glow video {
-    display: block;
-    width: 250px;
+    width: 25vh;
+    max-width: 1200px;
     height: auto;
-    border: none;
-    border-radius: 2rem 2rem 0 0;
+    display: block;
+    border-radius: 20px 20px 0px 0px;
+    box-shadow: rgba(0, 255, 255, 0.35) 0px 0px 60px 15px;
 }
 
 /*Comparador*/
