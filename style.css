@@ -13,10 +13,10 @@
 body {
     font-family: "Inter", sans-serif;
     line-height: 1.5;
-    background: radial-gradient(circle, rgb(58 77 93 / 35%) 0%, transparent 70%, #2A2A2A 100%);
-    background-color: #2A2A2A;
-    /* color de fondo base - Gris Oscuro */
-    color: #FFFFFF;
+    background: radial-gradient(circle, rgb(57 103 94 / 42%) 0%, transparent 70%, black 100%);
+    background-color: black;
+    /* color de fondo base */
+    color: #fff;
 }
 
 h1 {
@@ -44,8 +44,8 @@ button {
     font-size: 1.1rem;
     border: none;
     border-radius: 1rem;
-    background-color: #DDE6ED;
-    color: #121212;
+    background-color: #274C5D;
+    color: #fff;
     cursor: pointer;
     font-weight: bold;
 }
@@ -99,7 +99,7 @@ header {
 .logo i {
     font-size: 28px;
     margin-right: 3px;
-    color: #121212;
+    color: #274C5D;
 }
 
 .logo span {
@@ -114,7 +114,7 @@ header {
     align-items: center;
     list-style: none;
     padding: 1rem;
-    background: #E0E0E0;
+    background: #f2f2f2;
     border-radius: 20px;
     z-index: 1000;
     position: fixed;
@@ -143,13 +143,11 @@ header {
 }
 
 .navbar a:hover {
-    color: #2A2A2A;
-    text-decoration: underline;
+    color: #274C5D;
 }
 
 .navbar a.active {
-    color: #2A2A2A;
-    font-weight: 800;
+    color: #274C5D;
 }
 
 
@@ -206,7 +204,7 @@ header {
             justify-content: flex-start;
             border-radius: 10px;
             transition: all .50s ease;
-            background: #DDE6ED;
+            background: #274C5D;
         }
 
         .navbar a {
@@ -214,17 +212,15 @@ header {
             margin: 12px 0;
             padding: 0px 25px;
             transition: all .50s ease;
-            color: #121212;
         }
 
         .navbar a:hover {
-            color: #2A2A2A;
+            color: #fff;
             transform: translateY(5px);
         }
 
         .navbar a.active {
-            color: #2A2A2A;
-            font-weight: 800;
+            color: #fff;
         }
 
         .navbar.open {
@@ -348,7 +344,7 @@ video {
 
 /*Comparador*/
 .comparator .container {
-    background-color: #121212;
+    background-color: black;
     border-radius: 20px;
     padding: 80px 80px;
     margin: 3rem auto;
@@ -357,7 +353,6 @@ video {
 .comparator p {
     text-align: center;
     margin-top: 1rem;
-    color: #E0E0E0;
 }
 
 .comparator .botons {
@@ -368,8 +363,8 @@ video {
 }
 
 .comparator button {
-    background-color: #DDE6ED;
-    color: #121212;
+    background-color: red;
+    color: #fff;
     padding: 1rem;
     border: none;
     border-radius: 1rem;
@@ -377,7 +372,6 @@ video {
     font-size: 1.25rem;
     cursor: pointer;
     height: 80px;
-    font-weight: bold;
 }
 
 .switches .switch {
@@ -385,7 +379,7 @@ video {
     flex-direction: row;
     align-items: center;
     margin: 3rem 0;
-    background-color: #121212;
+    background-color: black;
     border-radius: 20px;
     padding: 80px 80px;
 }
